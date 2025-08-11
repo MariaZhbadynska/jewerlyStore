@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&display=swap"
+        rel="stylesheet">
+    <title>Joyas Rodríguez</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container topbar__inner">
+            <div class="topbar__social">
+                <img src="./icons/facebook.svg" alt="Facebook">
+                <img src="./icons/instagram.svg" alt="Instagram">
+            </div>
+
+            <p class="topbar__title">
+                <strong>DESCUENTO EXTRA: </strong> Aplicado al carrito sobre dos o más artículos
+            </p>
+
+            <div class="topbar__spacer"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container header__inner">
+            <nav class="nav nav--left">
+                <button class="burger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a href="#">INICIO</a>
+                <a href="#">JOYAS</a>
+                <a href="#">REGALOS</a>
+                <a href="#">TENDENCIAS</a>
+            </nav>
+            <a href="#" class="logo">
+                <img src="./icons/logo.pdf" alt="Joyas Rodríguez">
+            </a>
+            <div class="nav nav--right">
+                <div class="nav--right_links">
+                    <a href="#">CONTACTO</a>
+                    <a href="#">SIGUE TU PEDIDO</a>
+                </div>
+                <div class="nav--right_icons">
+                    <button class="icon-btn"><img src="./icons/user.svg" alt="Cuenta"></button>
+                    <button class="icon-btn"><img src="./icons/search.svg" alt="Buscar"></button>
+                    <button class="icon-btn"><img src="./icons/shopping-bag.svg" alt="Bolsa"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav id="mobile-menu" class="mobile-menu">
+        <button class="close-btn" aria-label="Cerrar">✕</button>
+        <a href="#">INICIO</a>
+        <a href="#">JOYAS</a>
+        <a href="#">REGALOS</a>
+        <a href="#">TENDENCIAS</a>
+        <a href="#">CONTACTO</a>
+        <a href="#">SIGUE TU PEDIDO</a>
+    </nav>
+    <section class="hero">
+        <div class="hero__inner container">
+            <div class="hero__text">
+                <h1 class="hero__title">Cada Joya cuenta</h1>
+                <h1 class="hero__title-b">una historia</h1>
+                <p class="hero__desc">
+                    Joyas Rodríguez es más que una marca: es una fuente de inspiración y empoderamiento.
+                    Cada pieza de Joyas Rodríguez cuenta una historia única y captura la esencia de la belleza y la
+                    gracia.
+                </p>
+                <a href="#" class="btn">SHOP COLLECTION</a>
+            </div>
+        </div>
+    </section>
+    <section class="categories">
+        <h2 class="categories__title title">
+            ELIGE LA JOYA PERFECTA PARA TI O PARA TUS SERES QUERIDOS.
+        </h2>
+        <p class="categories__subtitle subtitle">
+            Hecha un vistazo a nuestras colecciones destacadas
+        </p>
+        <div class="categories-wrapper">
+            <div class="categories-track">
+                <div class="category-card">
+                    <span class="category-card__tag tag--blue">LOS MÁS VENDIDOS</span>
+                    <img src="./imgs/ring-1.png" alt="Anillo más vendido">
+                </div>
+                <div class="category-card">
+                    <span class="category-card__tag tag--pink">SAN VALENTÍN</span>
+                    <img src="./imgs/ring-2.png" alt="Anillo San Valentín">
+                </div>
+                <div class="category-card">
+                    <span class="category-card__tag tag--purple">REGALOS</span>
+                    <img src="./imgs/ring-4.png" alt="Anillo regalos">
+                </div>
+            </div>
+        </div>
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <a href="#" class="black-btn">VER LAS COLECCIONES</a>
+    </section>
+    <section class="stories">
+        <div class="container">
+            <h2 class="stories__title title">HISTORIAS</h2>
+            <p class="stories__subtitle subtitle">
+                Cada una de nuestras piezas cuenta con su propia historia, un reflejo de momentos especiales que
+                llevarás contigo para siempre.
+            </p>
+            <div class="stories-wrapper">
+                <div class="stories__grid">
+                    <article class="story-card">
+                        <figure class="story-card__media">
+                            <img src="./imgs/historias-1.png" alt="Amor Propio">
+                        </figure>
+                        <div class="story-card__body">
+                            <h3 class="story-card__title">Amor Propio</h3>
+                            <p class="story-card__text">
+                                Piezas que te harán brillar, exaltando el amor hacia ti misma. Celebra tu autenticidad y
+                                empodérate con un toque de elegancia.
+                            </p>
+                            <a href="#" class="story-card__link">DESCUBRE MÁS</a>
+                        </div>
+                    </article>
+                    <article class="story-card">
+                        <figure class="story-card__media">
+                            <img src="./imgs/historias-2.png" alt="Madre & Hija">
+                        </figure>
+                        <div class="story-card__body">
+                            <h3 class="story-card__title">Madre & Hija</h3>
+                            <p class="story-card__text">
+                                Un reflejo brillante del amor eterno que compartís como madre e hija, capturado en
+                                diseños
+                                elegantes y atemporales.
+                            </p>
+                            <a href="#" class="story-card__link">DESCUBRE MÁS</a>
+                        </div>
+                    </article>
+                    <article class="story-card">
+                        <figure class="story-card__media">
+                            <img src="./imgs/historias-3.png" alt="Amor y Compromiso">
+                        </figure>
+                        <div class="story-card__body">
+                            <h3 class="story-card__title">Amor y Compromiso</h3>
+                            <p class="story-card__text">
+                                Diseños únicos que reflejan la eternidad del amor. Encuentra la joya perfecta para tu
+                                otra
+                                mitad.
+                            </p>
+                            <a href="#" class="story-card__link">DESCUBRE MÁS</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="best container">
+        <div class="best__head container">
+            <div class="titles">
+                <h2 class="title">LOS MÁS VENDIDOS</h2>
+                <div class="best__all">
+                    <a href="#" class="best__all">VER TODO </a>
+                    <img src="./icons/arrow-right2.svg" alt="">
+
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="ctrl prev" aria-label="Prev products"><img src="./icons/Arrow-left.svg" alt=""></button>
+                <button class="ctrl next" aria-label="Next products"><img src="./icons/Arrow-right2.svg"
+                        alt=""></button>
+            </div>
+        </div>
+
+        <div class="slider container" data-slider="products">
+            <article class="p-card">
+                <figure class="p-card__img">
+                    <span class="badge">OFERTA</span>
+                    <img src="./imgs/ringSec2-1.png" alt="Anillo Girasol">
+                </figure>
+                <div class="p-card__body">
+                    <div class="rating">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <p>(42)</p>
+                    </div>
+                    <h3 class="p-card__title">Anillo Girasol</h3>
+                    <div class="price">
+                        <span class="old">$809.99 MXN</span>
+                        <span class="new">$440.99 MXN</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="p-card">
+                <figure class="p-card__img">
+                    <span class="badge">OFERTA</span>
+
+                    <img src="./imgs/ringSec2-2.png" alt="Anillo Lotus">
+                </figure>
+                <div class="p-card__body">
+                    <div class="rating">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <p>(42)</p>
+                    </div>
+                    <h3 class="p-card__title">Anillo Lotus - Empieza de nuevo</h3>
+                    <div class="price">
+                        <span class="old">$809.99 MXN</span>
+                        <span class="new">$490.99 MXN</span>
+                    </div>
+                </div>
+            </article>
+            <article class="p-card">
+                <figure class="p-card__img">
+                    <span class="badge">OFERTA</span>
+
+                    <img src="./imgs/ringSec2-3.png" alt="Anillo Aventura">
+                </figure>
+                <div class="p-card__body">
+                    <div class="rating">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <p>(42)</p>
+                    </div>
+                    <h3 class="p-card__title">Anillo Aventura</h3>
+                    <div class="price">
+                        <span class="old">$809.99 MXN</span>
+                        <span class="new">$440.99 MXN</span>
+                    </div>
+                </div>
+            </article>
+            <article class="p-card">
+                <figure class="p-card__img">
+                    <span class="badge">OFERTA</span>
+                    <img src="./imgs/ringSec2-1.png" alt="Anillo Girasol">
+                </figure>
+                <div class="p-card__body">
+                    <div class="rating">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <img src="./icons/star.svg" alt="">
+                        <p>(42)</p>
+                    </div>
+                    <h3 class="p-card__title">Anillo Girasol</h3>
+                    <div class="price">
+                        <span class="old">$809.99 MXN</span>
+                        <span class="new">$440.99 MXN</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="reviews container">
+        <div class="reviews__head">
+            <h2 class="title">RESEÑAS</h2>
+            <div class="slider-controls">
+                <button class="ctrl prev" aria-label="Prev products"><img src="./icons/Arrow-left.svg" alt=""></button>
+                <button class="ctrl next" aria-label="Next products"><img src="./icons/Arrow-right2.svg"
+                        alt=""></button>
+            </div>
+        </div>
+
+        <div class="slider" data-slider="reviews">
+            <article class="r-card">
+                <div class="resenas-rating">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                </div>
+                <div class="r-card__user">
+                    <span class="name">Sofía León</span>
+                    <span>Santa Catarina</span>
+                </div>
+                <p class="r-card__text">
+                    Anillos y mensajes muy bonitos. Compré 3 y ahora le he dicho a mi hermana que pida 3 con la buena
+                    oferta que hay actualmente.
+                </p>
+            </article>
+
+            <article class="r-card">
+                <div class="resenas-rating">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                </div>
+                <div class="r-card__user">
+                    <span class="name">Joselin Mata</span>
+                    <span>Ciudad de México</span>
+                </div>
+                <p class="r-card__text">
+                    ¡Me encantaron los anillos! Súper buen historial de envío y gran experiencia. Totalmente
+                    recomendado.
+                </p>
+            </article>
+
+            <article class="r-card">
+                <div class="resenas-rating">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                </div>
+                <div class="r-card__user">
+                    <span class="name">Serrano Nuria</span>
+                    <span>San Luis Potosí</span>
+                </div>
+                <p class="r-card__text">
+                    Siempre compro productos en Joyas Rodríguez. La calidad es muy buena y la atención al cliente
+                    perfecta.
+                </p>
+            </article>
+            <article class="r-card">
+                <div class="resenas-rating">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                    <img src="./icons/star.svg" alt="">
+                </div>
+                <div class="r-card__user">
+                    <span class="name">Marcos Rey</span>
+                    <span>Zapopan</span>
+                </div>
+                <p class="r-card__text">
+                    Excelente calidad, todos los productos de esta tienda me encantan. Los recomiendo a todo el mundo.
+                </p>
+            </article>
+        </div>
+    </section>
+    <section class="categories container">
+        <h2 class="section-title title">DESCUBRE Y COMPRA POR CATEGORÍAS</h2>
+        <p class="section-subtitle subtitle">Hermoso diseño y artesanía sin igual.</p>
+        <div class="categories__grid">
+            <div class="cat-card">
+                <img src="./imgs/jewerly-1.png" alt="Anillos">
+                <h3>ANILLOS</h3>
+            </div>
+            <div class="cat-card">
+                <img src="./imgs/jewerly-2.png" alt="Pulsears">
+                <h3>PULSEARS</h3>
+            </div>
+            <div class="cat-card">
+                <img src="./imgs/jewelry-3.png" alt="Pensientes">
+                <h3>PENSIENTES</h3>
+            </div>
+            <div class="cat-card">
+                <img src="./imgs/jewelry-4.png" alt="Collares">
+                <h3>COLLARES</h3>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about__inner">
+            <div class="about__img">
+                <img src="./imgs/10 2.png" alt="Amor Propio">
+            </div>
+            <div class="about__text">
+                <p class="about__subtitle">SOBRE NOSOTROS</p>
+                <h2 class="about__title">Felicidad y Paz</h2>
+                <p class="about__desc">
+                    La mayoría de nuestras piezas de joyería están hechas de plata de ley925.
+                    No solo están hechas para brillar y relucir, sino también para durar. <br><br>
+                    Cada Joya llega con su propia cajita y con su tarjeta con un mensaje significativo.
+                    Joyas Rodríguez encarna el espíritu de aventura y el valor para perseguir tus sueños.
+                </p>
+                <div class="about__social">
+                    <a href="#"><img src="./icons/facebook.svg" alt=""></a>
+                    <a href="#"><img src="./icons/instagram.svg" alt=""></a>
+                </div>
+                <a href="#" class="btn-outline">MÁS ACERCA DE NOSOTROS</a>
+            </div>
+        </div>
+    </section>
+    <section class="xp">
+        <div class="containerSml">
+            <h2 class="xp__title title">LA EXPERIENCIA JOYAS RODRIGUEZ</h2>
+            <div class="xp__grid">
+                <article class="xp-item">
+                    <img class="xp-item__icon" src="./icons/track.svg" alt="">
+                    <h3 class="xp-item__title">Envíos gratuitos</h3>
+                    <p class="xp-item__text">
+                        Ofrecemos envíos gratuitos en todos los pedidos con un tiempo de entrega de 6–12 días
+                        laborables.
+                    </p>
+                    <a class="xp-item__link" href="#">PARA SABER MÁS</a>
+                </article>
+
+                <article class="xp-item">
+                    <img class="xp-item__icon" src="./icons/support.svg" alt="">
+                    <h3 class="xp-item__title">Joyas Rodriguez a tu servicio</h3>
+                    <p class="xp-item__text">
+                        Nuestros expertos en atención al cliente están siempre a tu disposición para cualquier duda que
+                        tengas.
+                    </p>
+                    <a class="xp-item__link" href="#">CONTÁCTENOS</a>
+                </article>
+
+                <article class="xp-item">
+                    <img class="xp-item__icon" src="./icons/story.svg" alt="">
+                    <h3 class="xp-item__title">Historias únicas</h3>
+                    <p class="xp-item__text">
+                        Nuestras joyas cuentan historias únicas y cada una llega con su propia tarjeta de mensaje, lista
+                        para regalar.
+                    </p>
+                    <a class="xp-item__link" href="#">DESCUBRE LAS COLECCIONES</a>
+                </article>
+
+                <article class="xp-item">
+                    <img class="xp-item__icon" src="./icons/box.svg" alt="">
+                    <h3 class="xp-item__title">La icónica Caja Azul</h3>
+                    <p class="xp-item__text">
+                        Tu compra de Joyas Rodriguez siempre llega en nuestra Caja Azul, elegante y refinada.
+                    </p>
+                    <a class="xp-item__link" href="#">DESCUBRE TODOS LOS REGALOS</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="insta">
+        <div class="container">
+            <div class="insta__head">
+                <h2 class="insta__title title">ÚNETE A LOS MÁS DE 30.000 DE<br>NUESTRA CUENTA INSTAGRAM</h2>
+                <div class="insta__desc">
+                    <p>
+                        Comparte los momentos en los cuales recibes o regalas una de nuestras Joyas. Recibirás así las
+                        novedades y los mejores descuentos por adelantado.
+                        A continuación, algunos de los preciosos clientes que nos han ayudado a construir esta pequeña
+                        familia
+                    </p>
+                    <p class="insta__handle">@JOYAS_RODRIGUEZ_</p>
+                </div>
+            </div>
+        </div>
+        <div class="insta__wrapper">
+            <div class="insta__grid">
+                <img class="insta__card" src="./imgs/photo-1.png" alt="">
+                <img class="insta__card" src="./imgs/photo-2.png" alt="">
+                <img class="insta__card" src="./imgs/photo-3.png" alt="">
+                <img class="insta__card" src="./imgs/photo-4.png" alt="">
+            </div>
+
+        </div>
+    </section>
+    <section class="nl">
+        <div class="container nl__inner">
+            <h2 class="nl__title title">INSCRÍBETE A NUESTRA NEWSLETTER</h2>
+            <p class="nl__subtitle subtitle">
+                Suscríbete para recibir ofertas especiales, sorteos gratuitos y ofertas únicas.
+            </p>
+
+            <form class="nl__form" action="#">
+                <label class="nl__field">
+                    <input type="email" placeholder="E-mail" required>
+                </label>
+                <button class="nl__btn" type="submit">SUBSCRIBIR</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="containerSml footer__top">
+            <div class="f-brand">
+                <img src="./icons/logo.pdf" alt="Joyas Rodríguez" class="f-brand__logo">
+                <p class="f-brand__text f-text">
+                    Descubre nuevos modelos, eventos especiales, ofertas únicas y mucho más.
+                </p>
+
+                <form class="f-mini">
+                    <input type="email" placeholder="E-mail">
+                    <button type="submit" aria-label="Enviar">
+                        <img src="./icons/arrow-right.svg" alt="">
+                    </button>
+                </form>
+
+                <div class="f-social ">
+                    <a href="#"><img src="./icons/facebook.svg" alt=""></a>
+                    <a href="#"><img src="./icons/instagram.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="f-col">
+                <h4 class="f-titles">AYUDA</h4>
+                <ul class="f-text">
+                    <li><a href="#">Seguimiento</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Mantenimiento de la plata</a></li>
+                    <li><a href="#">Referencias</a></li>
+                    <li><a href="#">Contactos</a></li>
+                    <li><a href="#">¿Quién Somos?</a></li>
+                </ul>
+            </div>
+            <div class="f-col">
+                <h4 class="f-titles">CONTACTOS</h4>
+                <p class="f-text fc-text">No dudes en ponerse en contacto con nosotros:</p>
+                <p class="f-mail">
+                    @infojoyasrodriguez@gmail.com
+                </p>
+            </div>
+            <div class="f-col">
+                <h4 class="f-titles">MENU FOOTER</h4>
+                <ul class="f-text">
+                    <li><a href="#">Política de Envío</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Legislación aplicable</a></li>
+                    <li><a href="#">Política de Reembolso</a></li>
+                    <li><a href="#">Términos de servicio</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer__bottom">
+            <div class="f-pay">
+                <img src="./imgs/pm-1.png" alt="">
+                <img src="./imgs/pm-2.png" alt="">
+                <img src="./imgs/pm-3.png" alt="">
+                <img src="./imgs/pm-4.png" alt="">
+                <img src="./imgs/pm-5.png" alt="">
+            </div>
+            <p class="f-copy">© 2024 Joyería Rodríguez</p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>
